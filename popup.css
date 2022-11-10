@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1em 1.5em;
+  width: 20em;
+}
+
+.full_width {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.full_width:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+button {
+  text-align: center;
+}
